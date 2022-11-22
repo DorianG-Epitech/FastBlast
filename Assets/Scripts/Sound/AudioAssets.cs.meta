@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b268537bf43016c4891bc33528db00ef
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - shootingSound: {fileID: 8300000, guid: 1867ec4667a0b7f4bacd91838e3e79b7, type: 3}
+  - jumpSound: {fileID: 8300000, guid: 1db13e779f5c33a4a858a2ebfa67d2fe, type: 3}
+  - landSound: {fileID: 8300000, guid: dea954d195a402b4c9c4f7c465b65d2b, type: 3}
+  - itemPickupSound: {fileID: 8300000, guid: 2444ea005cdcdf547a1c71ab0fa7dcf6, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

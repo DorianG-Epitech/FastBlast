@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c203d21c9ac1c4bb285c7c7a329c44, type: 3}
+  m_Name: ItemTennisBall
+  m_EditorClassIdentifier: 
+  itemName: Tennis Ball
+  id: 8
+  description: A small ball that surprisingly makes the bullet bounce more
+  itemRarity: 0
+  itemIcon: {fileID: 21300000, guid: 38b8707de64a507438a7ea81f4c4dd05, type: 3}
+  itemBuffs:
+  - buffType: 6
+    amountType: 0
+    amount: 1

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6636060724308365944
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5564116827137892361}
+  - component: {fileID: 9002570662422827520}
+  m_Layer: 0
+  m_Name: AudioAssets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5564116827137892361
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6636060724308365944}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9002570662422827520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6636060724308365944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b268537bf43016c4891bc33528db00ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootingSound: {fileID: 8300000, guid: 1867ec4667a0b7f4bacd91838e3e79b7, type: 3}
+  jumpSound: {fileID: 8300000, guid: 1db13e779f5c33a4a858a2ebfa67d2fe, type: 3}
+  landSound: {fileID: 8300000, guid: dea954d195a402b4c9c4f7c465b65d2b, type: 3}
+  itemPickupSound: {fileID: 8300000, guid: 2444ea005cdcdf547a1c71ab0fa7dcf6, type: 3}
+  bulletImpacts:
+  - {fileID: 8300000, guid: d2e7f778ab0045a4b85040ad448d1071, type: 3}
+  - {fileID: 8300000, guid: 60f8bf133d5c4a24f9496e145804764d, type: 3}
+  - {fileID: 8300000, guid: 576632c1d84153e489bb4427540b8d73, type: 3}
+  - {fileID: 8300000, guid: b6a756926b7d8de46a17da36f71aeba1, type: 3}
+  - {fileID: 8300000, guid: e2be8cd95c8c4554fa78baa3ca0d65ab, type: 3}
+  - {fileID: 8300000, guid: ee7701286c6d98f4c86989a8dfdb7dad, type: 3}
+  gameMusic: {fileID: 8300000, guid: 0d8dd885e3621e4428afb8c40c998554, type: 3}
+  menuTheme: {fileID: 8300000, guid: 8c3d87ebeab598d48b2f6345a47f3522, type: 3}
+  bulletTimeStartSound: {fileID: 8300000, guid: c5c3df46487bbab4bac62773c2b625e3, type: 3}
+  bulletTimeEndSound: {fileID: 8300000, guid: 47f9d8630d9feba4b9fecdbe3d37137e, type: 3}
+  enemyAttack: {fileID: 8300000, guid: 33bd9807286921d4f98561c30594ed38, type: 3}
+  stepSound1: {fileID: 8300000, guid: 13416750f5ec08b4080a8c5da35d0b74, type: 3}
+  stepSound2: {fileID: 8300000, guid: 7bc56395230843f4b98245b733c00085, type: 3}
+  stepSound3: {fileID: 8300000, guid: 736e45d32f781d34c8773afa20d14481, type: 3}
+  stepSound4: {fileID: 8300000, guid: 5887bb4373c91c0429792c7bd4049309, type: 3}
+  stepSound5: {fileID: 8300000, guid: 7bbb34453fddca14686d3de39653d502, type: 3}
+  stepSound6: {fileID: 8300000, guid: 7997d385fe625014c9bc6496321d4481, type: 3}
+  stepSound7: {fileID: 8300000, guid: 35a11d8df9de3ac45a1c671ab3ca417b, type: 3}
+  stepSound8: {fileID: 8300000, guid: aa97ea0142a084c4b98a7275baddc1b8, type: 3}
+  stepSound9: {fileID: 8300000, guid: a334e09bf9f29884fbc4a755d01f7625, type: 3}
+  stepSound10: {fileID: 8300000, guid: e36ab44dc3ac3a8459851e7e793d46e9, type: 3}
